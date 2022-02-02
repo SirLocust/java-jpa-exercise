@@ -10,7 +10,7 @@ import java.util.Objects;
 @Table(name = "PRODUCTOS")
 @Getter
 @Setter
-
+@ToString
 @RequiredArgsConstructor
 public class Producto {
     @Id

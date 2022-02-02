@@ -28,6 +28,7 @@ public class Proveedore {
     private String telefono;
 
     @OneToMany( mappedBy = "idProveedor" ,cascade =CascadeType.ALL )
+    @ToString.Exclude
     private List<Producto> productoList;
 
     @Override

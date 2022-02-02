@@ -30,7 +30,7 @@ public class ProductoRepository {
         }
     }
     public List<Producto> findAll(){
-        Query query = em.createQuery("SELECT p FROM Producto v");
+        Query query = em.createQuery("SELECT p FROM Producto p");
         return  (List<Producto>) query.getResultList();
     }
 }

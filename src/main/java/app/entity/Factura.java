@@ -1,9 +1,12 @@
 package app.entity;
 
+import lombok.ToString;
+
 import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
+@ToString
 @Table(name = "FACTURAS")
 public class Factura {
     @Id
