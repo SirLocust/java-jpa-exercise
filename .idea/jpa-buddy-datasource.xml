@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="cf9eb62a-c042-4340-9e87-41d4f9b4563a" name="jpaHi" url="jdbc:sqlserver://localhost:1433;databaseName=facturacion" driverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+    </data-sources>
+  </component>
+</project>
